@@ -1,6 +1,8 @@
 # VNIXSPQR
 Displays Unix time - in Roman numerals. Readably.
 
+You can access the live output of this script (current Unix time at pageload) at: https://hook.io/verstandinvictus/vnixspqr
+
 If this was done in the usual fashion, a Unix timestamp would be about 1.4 million Ms and then a few other numerals.
 
 This would obviously not be useful or readable.
