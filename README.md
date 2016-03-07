@@ -6,8 +6,8 @@ If this was done in the usual fashion, a Unix timestamp would be about 1.4 milli
 This would obviously not be useful or readable.
 
 Solution: Break the timestamp into triads, zero padded at the left. This not only allows the epoch to stand alone, it has the useful property of making sure that we do not have to deal with four digit Arabic numbers (since traditional Roman numerals lack the ability to express numbers greater than 4999 without repeating M a lot). So:
-  * Unix: (00)1 457 379 747
-  * VNIX: I·CDLVII·CCCLXXX·CCXVIII
+* Unix: (00)1 457 381 831
+* VNIX: I·CDLVII·CCCLXXXI·DCCCXXXI
 
 The ```NVMERVMROMANVMSVM()``` function, which converts an Arabic number to Roman numerals, is fully general and should do the M thing as above if it is fed anything large, but it is implemented naively from scratch so I have no idea if the algorithm is in any way optimal. I'm not exactly displeased with it, though, and it was fun to write.
 
