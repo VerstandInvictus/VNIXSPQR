@@ -1,4 +1,5 @@
 #VNIXSPQR.PY
+# -*- coding: UTF-8 -*-
 
 import arrow
 
@@ -19,7 +20,7 @@ def NVMERVMROMANVMSVM(NVMERVM):
     ARABIVM=[1000,500,100,50,10,5,1]
     #COMPVTARELITTERARVM
     VALVE=NVMERVM
-    for LATINE,ARABI in TRIUMPH(LATINEM,ARABIVM):
+    for ARABI in ARABIVM:
         TVPLE=DEPUTO(VALVE,ARABI)
         VARARRAY.append(TVPLE[0])
         VALVE=TVPLE[1]
@@ -42,4 +43,5 @@ VNIXTIME=LITTERARE(arrow.utcnow().timestamp).zfill(12)
 TRIADEM=[NVMERVMROMANVMSVM(
             NVMERARE(
                 VNIXTIME[I:I+3])) for I in ORDO(0,PROCERITAS(VNIXTIME),3)]
-SCRIBET("{0}|{1}|{2}|{3}".format(*TRIADEM))
+SCRIBET(VNIXTIME)
+SCRIBET(u'{0}·{1}·{2}·{3}'.format(*TRIADEM))
