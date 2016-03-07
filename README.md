@@ -5,7 +5,7 @@ If this was done in the usual fashion, a Unix timestamp would be about 1.4 milli
 
 This would obviously not be useful or readable.
 
-Solution: Break the timestamp into triads, zero padded at the left. This not only allows the epoch to stand alone, it has the useful property of making sure that we do not have to deal with four digit Arabic numerals (since traditional Roman numerals lack the ability to express numbers greater than 4999). So:
+Solution: Break the timestamp into triads, zero padded at the left. This not only allows the epoch to stand alone, it has the useful property of making sure that we do not have to deal with four digit Arabic numbers (since traditional Roman numerals lack the ability to express numbers greater than 4999). So:
   * Unix: (00)1 457 379 747
   * VNIX: I·CDLVII·CCCLXXX·CCXVIII
 
