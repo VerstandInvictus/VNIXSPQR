@@ -43,5 +43,5 @@ VNIXTIME=LITTERARE(arrow.utcnow().timestamp).zfill(12)
 TRIADEM=[NVMERVMROMANVMSVM(
             NVMERARE(
                 VNIXTIME[I:I+3])) for I in ORDO(0,PROCERITAS(VNIXTIME),3)]
-SCRIBET(VNIXTIME)
-SCRIBET(u'{0}·{1}·{2}·{3}'.format(*TRIADEM))
+SCRIBET(u'SALVE, CIVE!')
+SCRIBET(u'TEMPVS VNIX ROMANVM EST: {0}·{1}·{2}·{3}'.format(*TRIADEM))
